@@ -1,0 +1,46 @@
+/* Logout button */
+.logout-btn {
+  border-radius: 20px;
+  padding: 6px 18px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #f44336; /* kuqe */
+  border-color: #f44336;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* Hover anim për menutë */
+.nav-link {
+  position: relative;
+  color: #bbb !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #0d6efd;
+  transition: width 0.3s ease;
+  -webkit-transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+  left: 0;
+  background: #0d6efd;
+}
