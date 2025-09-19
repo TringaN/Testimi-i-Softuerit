@@ -1,0 +1,31 @@
+{
+  "type": "module",
+  "dependencies": {
+    "selenium-webdriver": "^4.35.0"
+  },
+  "name": "mini-library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "cucumber-js features/**/*.feature --require steps/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TringaN/Testimi-i-softuerit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TringaN/Testimi-i-softuerit/issues"
+  },
+  "homepage": "https://github.com/TringaN/Testimi-i-softuerit#readme",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "chai": "^6.0.1"
+  }
+}
